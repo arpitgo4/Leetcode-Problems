@@ -16,14 +16,14 @@ public:
             ll left = (m-1 < 0 ? NEG_INF : A[m-1]);
             ll right = (m+1 == N ? NEG_INF : A[m+1]);
             
-            if (left < A[m] && A[m] < right)
+            if (left < A[m] && A[m] < right)                    // incline
                 l = m+1;
-            else if (left > A[m] && A[m] > right)
+            else if (left > A[m] && A[m] > right)               // decline
                 h = m-1;
-            else if (left > A[m] && A[m] < right)
+            else if (left > A[m] && A[m] < right)               // local minima
                 h = m-1;
             else
-                return m;
+                return m;                                       // local maxima (peak)
         }
         
         return -1;
