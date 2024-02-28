@@ -22,7 +22,7 @@ public:
             return "";
         
         for (int j = 0; j < ALPHA_SIZE; j++) {
-            if (trie[i][j] == N)
+            if (trie[i][j] == N)                            // for all strings to have same prefix at depth i, count at trie(i,j) == N
                 return char(j + 'a') + dfs(i+1, N);
         }
         
