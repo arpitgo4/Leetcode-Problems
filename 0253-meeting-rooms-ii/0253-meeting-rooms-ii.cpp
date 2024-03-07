@@ -22,7 +22,7 @@ public:
     int minMeetingRooms(vector<vector<int>>& A) {
         int N = A.size();
         sort(A.begin(), A.end(), [&](const auto& v1, const auto& v2) {
-            return v1[0] < v2[0];
+            return v1[0] < v2[0];                                                   // sort by start-time
         });
         
         auto comp = [&](const auto& v1, const auto& v2) {
