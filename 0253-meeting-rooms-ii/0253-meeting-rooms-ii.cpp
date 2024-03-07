@@ -1,5 +1,9 @@
 class Solution {
 public:
+    
+    // Time: O(NlogN)
+    // Space: O(N)
+    
     int minMeetingRooms(vector<vector<int>>& A) {
         map<int,int> line;
         for (auto& v : A) {
