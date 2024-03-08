@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    // Time: O(N * M * log(N * M))
+    // Time: O(N * M * log(N * M) + N * M * ⍺(N * M))
     // Space: O(N * M)
     
     vector<pair<int,int>> moves{
