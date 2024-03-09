@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    // Time: O(N * M * log(3e3))
+    // Time: O(N * M * log(3e3)) ~ O(N * M)
     // Space: O(N * M)
 
     vector<vector<int>> vis;
