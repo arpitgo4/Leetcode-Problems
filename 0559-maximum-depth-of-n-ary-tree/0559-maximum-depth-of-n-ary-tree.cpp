@@ -26,7 +26,7 @@ public:
     
     int dfs(Node* root) {
         if (root == NULL)
-            return 1;
+            return 0;
         
         int max_depth = 1;
         for (Node* child : root->children)
@@ -36,9 +36,6 @@ public:
     }
     
     int maxDepth(Node* root) {
-        if (root == NULL)
-            return 0;
-        
         return dfs(root);
     }
 };
