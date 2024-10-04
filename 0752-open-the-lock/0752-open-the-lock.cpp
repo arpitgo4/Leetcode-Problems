@@ -32,43 +32,39 @@ public:
         vis[src] = 1;
         
         while (!q.empty()) {
-            string s = q.front();
+            string u = q.front();
             q.pop();
             
-            int move = dist[s];
-            if (vis[s] == 2 || dict.find(s) != dict.end())
+            if (vis[u] == 2 || dict.find(u) != dict.end())
                 continue;
-            vis[s] = 2;
+            vis[u] = 2;
+            
+            if (u == dest)
+                return dist[u];
             
             for (int i = 0; i < 4; i++) {
-                string t = s;
-                int next = ((t[i]-'0')+1) % 10;
-                t[i] = ('0'+next);
+                string v = u;
+                int next = ((v[i]-'0')+1) % 10;
+                v[i] = ('0'+next); 
                 
-                if (vis.find(t) == vis.end() && dict.find(t) == dict.end()) {
-                    q.push(t);
-                    dist[t] = move + 1;
-                    vis[t] = 1;
+                if (vis.find(v) == vis.end()) {
+                    q.push(v);
+                    dist[v] = dist[u] + 1;
+                    vis[v] = 1;
                 }
                 
-                if (t == dest)
-                    return dist[t];
-                
-                t = s;
-                next = (t[i]-'0')-1;
+                v = u;
+                next = (v[i]-'0')-1;
                 if (next < 0)
                     next = 9;
                 
-                t[i] = ('0'+next);
+                v[i] = ('0'+next);
                 
-                if (vis.find(t) == vis.end() && dict.find(t) == dict.end()) {
-                    q.push(t);
-                    dist[t] = move + 1;
-                    vis[t] = 1;
+                if (vis.find(v) == vis.end()) {
+                    q.push(v);
+                    dist[v] = dist[u] + 1;
+                    vis[v] = 1;
                 }
-                
-                if (t == dest)
-                    return dist[t];
             }
         }
         
