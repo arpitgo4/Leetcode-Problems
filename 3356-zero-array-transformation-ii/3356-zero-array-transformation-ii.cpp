@@ -24,7 +24,7 @@ public:
         
         A[0] = D[0];
         bool canBe = A[0] <= 0;
-        for (int i = 1; i < N; i++) {
+        for (int i = 1; i < N && canBe; i++) {
             A[i] = A[i-1] + D[i];
             if (A[i] > 0)
                 canBe = false;
