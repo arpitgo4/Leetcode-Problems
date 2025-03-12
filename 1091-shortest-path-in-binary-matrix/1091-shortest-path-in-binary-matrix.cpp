@@ -5,6 +5,10 @@ public:
     // Space: O(N^2)
 
     vector<vector<int>> VIS;
+
+    // if eastern cells are available (i.e. == 0) they are the first to be queued up as they
+    // will reach destination in shorter distance compared to western cells
+    // with above setup, we can prune the BFS as soon as we reach the destination
     vector<vector<int>> directions{
         { -1, 1 },       // north-east
         { 0, 1 },        // east
@@ -26,7 +30,6 @@ public:
         queue<tuple<int,int,int>> q;
         q.push({ 0, 0, 1 });
             
-        int min_path_len = INT_MAX;
         while (!q.empty()) {
             tuple<int,int,int> t = q.front();
             q.pop();
@@ -49,6 +52,6 @@ public:
 
         }
 
-        return min_path_len == INT_MAX ? -1 : min_path_len;
+        return -1;
     }
 };
