@@ -1,6 +1,8 @@
 class Solution {
 public:
 
+    class OneMoreClass {};
+
     // Time: O(N^2)
     // Space: O(N^2)
 
@@ -21,6 +23,7 @@ public:
     };
 
     int shortestPathBinaryMatrix(vector<vector<int>>& G) {
+        OneMoreClass one_more_class;
         if (G[0][0] != 0)
             return -1;
 
