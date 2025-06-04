@@ -20,18 +20,17 @@ public:
             return 0;
 
         int low = 1, high = 5 * 1e4;
-        while (low < high) {
+        while (low <= high) {
             int mid = ((high - low) / 2) + low;
-            // cout << "mid: " << mid << endl;
             bool node_found = findNodeByIndex(root, mid);
             if (node_found) {
                 low = mid+1;
             } else {
-                high = mid;
+                high = mid-1;
             }
         }
 
-        return high;
+        return low;
     }
 
     bool findNodeByIndex(TreeNode* root, int target_index) {
