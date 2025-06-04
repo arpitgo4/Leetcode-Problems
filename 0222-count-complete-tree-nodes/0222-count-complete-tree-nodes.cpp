@@ -22,7 +22,7 @@ public:
         int low = 1, high = 5 * 1e4;
         while (low <= high) {
             int mid = ((high - low) / 2) + low;
-            bool node_found = findNodeByIndex(root, mid);
+            bool node_found = findNodeByIndex(root, mid-1);
             if (node_found) {
                 low = mid+1;
             } else {
@@ -30,7 +30,7 @@ public:
             }
         }
 
-        return low;
+        return high;
     }
 
     bool findNodeByIndex(TreeNode* root, int target_index) {
