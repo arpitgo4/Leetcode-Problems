@@ -7,10 +7,10 @@ public:
     int climbStairs(int step_cnt) {
         vector<int> dp(step_cnt+1, -1);
 
-        return findWaysToClimb(0, step_cnt, dp);
+        return countWaysToClimb(0, step_cnt, dp);
     }
 
-    int findWaysToClimb(int curr_step, int step_cnt, vector<int>& dp) {
+    int countWaysToClimb(int curr_step, int step_cnt, vector<int>& dp) {
         if (curr_step > step_cnt)
             return INT_MAX;
         if (curr_step == step_cnt)
@@ -19,11 +19,11 @@ public:
             return dp[curr_step];
 
         int total_ways = 0;
-        int ways_by_one = findWaysToClimb(curr_step + 1, step_cnt, dp);
+        int ways_by_one = countWaysToClimb(curr_step + 1, step_cnt, dp);
         if (ways_by_one != INT_MAX) {
             total_ways += ways_by_one;
         }
-        int ways_by_two = findWaysToClimb(curr_step + 2, step_cnt, dp); 
+        int ways_by_two = countWaysToClimb(curr_step + 2, step_cnt, dp); 
         if (ways_by_two != INT_MAX) {
             total_ways += ways_by_two;
         }
