@@ -4,7 +4,6 @@ public:
     // Time: O(NlogN)
     // Space: O(N)
 
-    // change this to Maximum Segment Tree instead of Sum Segment Tree
     class MaxSegmentTree {
     public:
         MaxSegmentTree(vector<int>& arr) {
