@@ -1,6 +1,9 @@
 class Solution {
 public:
 
+    // Time: O(ElogV)
+    // Space: O(V)
+
     const int INF = INT_MAX;
 
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
