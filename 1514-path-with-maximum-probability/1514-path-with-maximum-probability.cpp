@@ -28,8 +28,6 @@ public:
             dist
         );
 
-        cout << fixed << setprecision(5);
-        
         return dist[end_node];
     }
 
