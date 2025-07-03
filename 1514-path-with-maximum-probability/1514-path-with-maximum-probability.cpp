@@ -25,6 +25,7 @@ public:
             adj_list,
             n,
             start_node,
+            end_node,
             dist
         );
 
@@ -35,6 +36,7 @@ public:
         vector<vector<edge_t>>& adj_list,
         int n,
         int start_node,
+        int end_node,
         vector<double>& dist
     ) {
 
@@ -51,6 +53,10 @@ public:
 
             if (vis[curr_node] == 2)
                 continue;
+
+            if (curr_node == end_node) {
+                return;
+            }
 
             for (auto& [ next_node, succ_prob ] : adj_list[curr_node]) {
                 if (dist[next_node] < dist[curr_node] * succ_prob) {
