@@ -51,8 +51,9 @@ public:
             auto [ _, curr_node ] = node_queue.top();
             node_queue.pop();
 
-            if (vis[curr_node] == 2)
+            if (vis[curr_node] == 2) {
                 continue;
+            }
 
             if (curr_node == end_node) {
                 return;
