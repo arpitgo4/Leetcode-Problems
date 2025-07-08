@@ -2,7 +2,7 @@ class Solution {
 public:
 
     // Time: O(NlogN)
-    // Space: O(1)
+    // Space: O(N)
 
     vector<int> twoSum(vector<int>& nums, int target) {
         int num_cnt = nums.size();
