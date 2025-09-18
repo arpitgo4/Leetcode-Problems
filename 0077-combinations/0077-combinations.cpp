@@ -32,6 +32,12 @@ public:
             result.emplace_back(subset);
             return;
         }
+
+        // break when curr_num > total
+        // this condition needs to after subset
+        // is included in above if block
+        // when curr_num == total+1, then
+        // only we will get subsets with total
         if (curr_num > total) {
             return;
         }
