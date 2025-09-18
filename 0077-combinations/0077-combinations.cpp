@@ -1,27 +1,57 @@
 class Solution {
 public:
 
-    // Time: O(N^K)
-    // Space: O(K)
+    // Time: O(nCk)
+    // Space: O(nCk)
 
-    vector<vector<int>> result;
-    vector<vector<int>> combine(int n, int k) {
-        comb(1, n, k, *new vector<int>());
+    vector<vector<int>> combine(int total, int choose) {
+        vector<vector<int>> result;
+        combinations(1, 0, total, choose, result);
+
         return result;
     }
 
-    void comb(int i, int N, int K, vector<int>& acc) {
-        if (acc.size() == K) {
-            result.push_back(acc);
+    void combinations(
+        int curr_num,
+        int mask,
+        int total,
+        int choose,
+        vector<vector<int>>& result
+    ) {
+        if (__builtin_popcount(mask) > choose) {
             return;
         }
-        if (i > N)
+        if (__builtin_popcount(mask) == choose) {
+            vector<int> subset;
+            for (int i = 1; i <= total; i++) {
+                if (mask & (1 << i)) {
+                    subset.emplace_back(i);
+                }
+            }
+
+            result.emplace_back(subset);
             return;
+        }
+        if (curr_num > total) {
+            return;
+        }
 
-        acc.push_back(i);
-        comb(i+1, N, K, acc);
-        acc.pop_back();
+        // include curr_num
+        combinations(
+            curr_num + 1,  
+            (mask | (1 << curr_num)),
+            total,
+            choose,
+            result
+        );
 
-        comb(i+1, N, K, acc);
+        // exclude curr_num
+        combinations(
+            curr_num + 1,  
+            mask,
+            total,
+            choose,
+            result
+        );
     }
 };
