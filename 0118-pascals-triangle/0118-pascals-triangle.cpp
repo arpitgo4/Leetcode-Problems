@@ -1,40 +1,37 @@
 class Solution {
 public:
-    vector<vector<int>> generate(int N) {
-        vector<vector<int>> result;
-        if (N == 0)
-            return result;
-        
-        int rows = N, cols = 2*N-1;
-        int A[rows][cols];
-        
-        for (int i = 0; i < rows; i++)
-            for (int j = 0; j < cols; j++)
-                A[i][j] = 0;
-        
-        int m = cols / 2;
-        A[0][m] = 1;
-        
-        for (int i = 1; i < rows; i++)
-            for (int j = 0; j < cols; j++) {
-                int a = 0, b = 0;
-                if (j-1 >= 0)
-                    a = A[i-1][j-1];
-                if (j+1 < cols)
-                    b = A[i-1][j+1];
 
-                A[i][j] = a + b;
+    // Time: O(N * K)
+    // Space: O(N * K)
+
+    vector<vector<int>> generate(int numRows) {
+        vector<vector<int>> result;
+        vector<vector<int>> dp(numRows+1, vector<int>(numRows+1, -1));
+        for (int total = 0; total < numRows; total++) {
+            result.emplace_back(vector<int>());
+            for (int choose = 0; choose <= total; choose++) {
+                int cnt = countCombinations(total, choose, dp);
+                result.back().emplace_back(cnt);
             }
-                    
-        for (int i = 0; i < rows; i++) {
-            vector<int> v;
-            for (int j = 0; j < cols; j++) {
-                if (A[i][j] != 0)
-                    v.push_back(A[i][j]);   
-            }
-            result.push_back(v);
         }
-        
+
         return result;
+    }
+
+    int countCombinations(int total, int choose, vector<vector<int>>& dp) {
+        if (choose == 0) {
+            return 1;
+        }
+        if (total == 0) {
+            return 0;
+        }
+        if (dp[total][choose] != -1) {
+            return dp[total][choose];
+        }
+
+        int include_cnt = countCombinations(total - 1, choose - 1, dp);
+        int exclude_cnt = countCombinations(total - 1, choose, dp);
+
+        return dp[total][choose] = include_cnt + exclude_cnt;
     }
 };
