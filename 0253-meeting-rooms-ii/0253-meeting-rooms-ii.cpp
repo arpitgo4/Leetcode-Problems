@@ -1,22 +1,23 @@
 class Solution {
 public:
-    
+
     // Time: O(NlogN)
     // Space: O(N)
-    
-    int minMeetingRooms(vector<vector<int>>& A) {
+
+    int minMeetingRooms(vector<vector<int>>& intervals) {
         map<int,int> line;
-        for (auto& v : A) {
-            line[v[0]]++;
-            line[v[1]]--;
+        for (auto& interval : intervals) {
+            line[interval[0]]++;
+            line[interval[1]]--;
         }
-        
-        int max_count = 0, count = 0;
-        for (auto& p : line) {
-            count += p.second;
-            max_count = max(max_count, count);
+
+        int max_room_cnt = 0;
+        int room_cnter = 0;
+        for (auto& [ time, cnt ] : line) {
+            room_cnter += cnt;
+            max_room_cnt = max(max_room_cnt, room_cnter);
         }
-        
-        return max_count;
+
+        return max_room_cnt;
     }
 };
