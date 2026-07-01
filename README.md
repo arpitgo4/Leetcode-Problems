@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0078-subsets](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0078-subsets/) | Medium |
+| [0079-word-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0079-word-search/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -27,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0071-simplify-path](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0071-simplify-path/) | Medium |
+| [0079-word-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0079-word-search/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -51,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0079-word-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0079-word-search/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -59,8 +62,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0078-subsets](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0078-subsets/) | Medium |
+| [0079-word-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0079-word-search/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0078-subsets](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0078-subsets/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0079-word-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0079-word-search/) | Medium |
 <!---LeetCode Topics End-->
