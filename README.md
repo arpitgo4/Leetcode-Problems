@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0071-simplify-path](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0071-simplify-path/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -46,4 +47,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0063-unique-paths-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0064-minimum-path-sum/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0071-simplify-path](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0071-simplify-path/) | Medium |
 <!---LeetCode Topics End-->
