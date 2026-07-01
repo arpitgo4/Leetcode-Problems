@@ -2,7 +2,7 @@ class Solution {
 public:
 
     // Time: O(N * M)
-    // Space: O(N * M)
+    // Space: O(N + M)
     void setZeroes(vector<vector<int>>& matrix) {
         int row_cnt = matrix.size();
         int col_cnt = matrix[0].size();
