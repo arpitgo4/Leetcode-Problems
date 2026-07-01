@@ -2,6 +2,9 @@ const int INF = INT_MAX;
 
 class Solution {
 public:
+
+    // Time: O(N * M)
+    // Space: O(N * M)
     int minPathSum(vector<vector<int>>& grid) {
         int row_cnt = grid.size();
         int col_cnt = grid[0].size();
