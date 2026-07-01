@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0078-subsets](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0079-word-search/) | Medium |
+| [0704-binary-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0704-binary-search/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -71,4 +72,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0079-word-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0079-word-search/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0704-binary-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0704-binary-search/) | Easy |
 <!---LeetCode Topics End-->
