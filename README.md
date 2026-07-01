@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0001-two-sum/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0063-unique-paths-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0063-unique-paths-ii/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -33,8 +34,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0062-unique-paths/) | Medium |
+| [0063-unique-paths-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0063-unique-paths-ii/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0062-unique-paths/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0063-unique-paths-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0063-unique-paths-ii/) | Medium |
 <!---LeetCode Topics End-->
