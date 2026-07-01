@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0078-subsets](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0078-subsets/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -54,4 +55,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0071-simplify-path](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0071-simplify-path/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0078-subsets](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0078-subsets/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0078-subsets](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0078-subsets/) | Medium |
 <!---LeetCode Topics End-->
