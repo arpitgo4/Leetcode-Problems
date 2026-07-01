@@ -11,13 +11,9 @@ public:
         int max_substr_len = 0;
         for (int i = 0; i < str_len; i++) {
             if (char_set.find(str[i]) != char_set.end()) {
-                while (str[j] != str[i]) {
+                do {
                     char_set.erase(str[j]);
-                    j++;
-                }
-
-                char_set.erase(str[j]);
-                j++;
+                } while(str[j++] != str[i]);
             }
 
             char_set.insert(str[i]);
