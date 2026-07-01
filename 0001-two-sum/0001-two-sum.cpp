@@ -1,37 +1,28 @@
 class Solution {
 public:
 
-    // Time: O(NlogN)
+    // Time: O(N)
     // Space: O(N)
-
     vector<int> twoSum(vector<int>& nums, int target) {
-        int num_cnt = nums.size();
-
-        vector<int> order_nums_idx(num_cnt);
-        iota(order_nums_idx.begin(), order_nums_idx.end(), 0);
-
-        auto cmp = [&](auto& a, auto& b) {
-            return nums[a] < nums[b];
-        };
-        sort(order_nums_idx.begin(), order_nums_idx.end(), cmp);
-        
-        int i = 0, j = num_cnt-1;
-        while (i < j) {
-            int a = nums[order_nums_idx[i]];
-            int b = nums[order_nums_idx[j]];
-            int sum = a + b;
-            if (sum == target) {
-                return vector<int>{ 
-                    order_nums_idx[i], 
-                    order_nums_idx[j] 
-                };
-            } else if (sum < target) {
-                i++;
-            } else {
-                j--;
-            };
+        unordered_map<int,int> nums_map;
+        for (int i = 0; i < nums.size(); i++) {
+            nums_map.insert({ nums[i], i });
         }
 
-        return { -1, -1 };
+        vector<int> result;
+        for (int i = 0; i < nums.size(); i++) {
+            int a = nums[i];
+            int b = target - a;
+            if (nums_map.find(b) != nums_map.end()) {
+                int j = nums_map.find(b)->second;
+                if (j != i) {
+                    result.push_back(i);
+                    result.push_back(j);
+                    break;
+                }
+            }
+        }
+
+        return result;
     }
 };
