@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0078-subsets](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0079-word-search/) | Medium |
+| [0349-intersection-of-two-arrays](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0704-binary-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0704-binary-search/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -21,10 +22,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0349-intersection-of-two-arrays](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0349-intersection-of-two-arrays/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0349-intersection-of-two-arrays](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0349-intersection-of-two-arrays/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -77,5 +80,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0035-search-insert-position](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0035-search-insert-position/) | Easy |
+| [0349-intersection-of-two-arrays](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0704-binary-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0704-binary-search/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0349-intersection-of-two-arrays/) | Easy |
 <!---LeetCode Topics End-->
