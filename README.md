@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0071-simplify-path](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0071-simplify-path/) | Medium |
 | [0496-next-greater-element-i](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0496-next-greater-element-i/) | Easy |
+| [0901-online-stock-span](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0901-online-stock-span/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -100,4 +101,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0496-next-greater-element-i](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0496-next-greater-element-i/) | Easy |
+| [0901-online-stock-span](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0901-online-stock-span/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0901-online-stock-span](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0901-online-stock-span/) | Medium |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0901-online-stock-span](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0901-online-stock-span/) | Medium |
 <!---LeetCode Topics End-->
