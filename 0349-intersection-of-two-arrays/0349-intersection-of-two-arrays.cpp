@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    // Time: O(N)
+    // Time: O(NlogN)
     // Space: O(N)
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
         set<int> nums1_set;
