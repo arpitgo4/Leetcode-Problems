@@ -6,7 +6,7 @@ public:
         
     }
     
-    // Time: O(N)
+    // Time: O(1) (amortized time complexity)
     // Space: O(N)
     int next(int price) {
         int span = 1;
