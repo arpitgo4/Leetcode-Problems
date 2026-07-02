@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0079-word-search/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0496-next-greater-element-i](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0496-next-greater-element-i/) | Easy |
 | [0704-binary-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0704-binary-search/) | Easy |
 | [1064-fixed-point](https://github.com/arpitgo4/Leetcode-Problems/tree/main/1064-fixed-point/) | Easy |
 ## Hash Table
@@ -26,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0496-next-greater-element-i](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0496-next-greater-element-i/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -67,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0071-simplify-path](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0071-simplify-path/) | Medium |
+| [0496-next-greater-element-i](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0496-next-greater-element-i/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -93,4 +96,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0496-next-greater-element-i/) | Easy |
 <!---LeetCode Topics End-->
