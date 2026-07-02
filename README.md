@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0001-two-sum/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0035-search-insert-position](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0035-search-insert-position/) | Easy |
 | [0063-unique-paths-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0064-minimum-path-sum/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0073-set-matrix-zeroes/) | Medium |
@@ -75,5 +76,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0035-search-insert-position](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0035-search-insert-position/) | Easy |
 | [0704-binary-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0704-binary-search/) | Easy |
 <!---LeetCode Topics End-->
