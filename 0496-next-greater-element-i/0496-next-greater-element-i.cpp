@@ -4,7 +4,7 @@ public:
     // Time: O(N)
     // Space: O(N)
     vector<int> nextGreaterElement(vector<int>& A, vector<int>& B) {
-        stack<int> mono_stack;                      // monotonically decreasing stack
+        stack<int> mono_stack;                      // monotonically decreasing stack (this stack will keep all the greater numbers that came before)
         vector<int> next_greater(B.size(), -1);
         for (int i = B.size()-1; i >= 0; i--) {
             while (!mono_stack.empty() && mono_stack.top() < B[i]) {
