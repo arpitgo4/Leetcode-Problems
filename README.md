@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0349-intersection-of-two-arrays](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0704-binary-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0704-binary-search/) | Easy |
+| [1064-fixed-point](https://github.com/arpitgo4/Leetcode-Problems/tree/main/1064-fixed-point/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -86,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0349-intersection-of-two-arrays](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0704-binary-search](https://github.com/arpitgo4/Leetcode-Problems/tree/main/0704-binary-search/) | Easy |
+| [1064-fixed-point](https://github.com/arpitgo4/Leetcode-Problems/tree/main/1064-fixed-point/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
